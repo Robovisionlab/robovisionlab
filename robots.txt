@@ -1,1 +1,1 @@
-Sitemap: https://robovisionlab.github.io/RobovisionLab/sitemap.xml
+Sitemap: https://robovisionlab.github.io/robovisionlab/sitemap.xml
