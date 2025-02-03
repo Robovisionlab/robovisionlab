@@ -5,6 +5,6 @@
 
   # Robovisionlab's Website
 
-  Visit **[robovisionlab.github.io/RobovisionLab](https://robovisionlab.github.io/RobovisionLab)** 🚀
+  Visit **[robovisionlab.github.io/robovisionlab](https://robovisionlab.github.io/robovisionlab)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
