@@ -1,20 +1,13 @@
 ---
-name: Jane Smith
+name: Ali
 image: images/photo.jpg
-role: principal-investigator
-affiliation: University of Colorado
+role: research-assistant
+affiliation: RoboVision Lab
 aliases:
-  - J. Smith
-  - J Smith
+  - A.  
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: # If Ali has a homepage, put the URL here (otherwise remove this line)
+  orcid: # If Ali has an ORCID, put the ID here (otherwise remove this line)
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Ali is a Research Assistant in the RoboVision Lab. His research focuses on **biosignal processing** and **AI**. He is passionate about leveraging artificial intelligence to interpret complex biological signals and improve healthcare outcomes.
