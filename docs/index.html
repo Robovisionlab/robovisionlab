@@ -34,37 +34,38 @@
 </head>
  <body class="min-h-screen bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100 font-sans">
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-white dark:bg-slate-800 text-slate-900 dark:text-white px-3 py-2 rounded">Skip to content</a>
-  <header class="sticky top-0 z-50 border-b border-slate-200/70 dark:border-slate-800 backdrop-blur bg-white/80 dark:bg-slate-950/70">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="flex h-16 items-center justify-between">
-        <a href="#home" class="flex items-center gap-2 font-semibold">
-          <img src="logo-rmvl.svg" alt="Robotics & Machine Vision Lab logo" class="h-8 w-8" />
-          <span>Robotics & Machine Vision Lab</span>
-        </a>
-        <nav class="hidden md:flex items-center gap-6" aria-label="Primary">
-          <a href="#research" class="hover:underline">Research</a>
-          <a href="#people" class="hover:underline">People</a>
-          <a href="#publications" class="hover:underline">Publications</a>
-          <a href="#news" class="hover:underline">News</a>
-          <a href="#contact" class="hover:underline">Contact</a>
-        </nav>
-        <div class="flex items-center gap-2">
-          <button id="themeToggle" class="rounded-xl border px-3 py-1 text-sm hover:bg-slate-50 dark:hover:bg-slate-900" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
-          <button id="menuBtn" class="md:hidden rounded-xl border px-3 py-1 text-sm" aria-controls="mobileMenu" aria-expanded="false">Menu</button>
-        </div>
-      </div>
-    </div>
-    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 dark:border-slate-800">
-      <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-3" aria-label="Mobile">
+<header class="sticky top-0 z-50 border-b border-slate-200/70 dark:border-slate-800 backdrop-blur bg-white/80 dark:bg-slate-950/70">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-semibold">
+        <img src="logo-rmvl.svg" alt="Robotics & Machine Vision Lab logo" class="h-8 w-8" />
+        <span>Robotics & Machine Vision Lab</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6" aria-label="Primary">
         <a href="#research" class="hover:underline">Research</a>
         <a href="#people" class="hover:underline">People</a>
         <a href="#publications" class="hover:underline">Publications</a>
         <a href="#news" class="hover:underline">News</a>
+        <a href="#lab-life" class="hover:underline">Lab Life</a> {/* */}
         <a href="#contact" class="hover:underline">Contact</a>
       </nav>
+      <div class="flex items-center gap-2">
+        <button id="themeToggle" class="rounded-xl border px-3 py-1 text-sm hover:bg-slate-50 dark:hover:bg-slate-900" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+        <button id="menuBtn" class="md:hidden rounded-xl border px-3 py-1 text-sm" aria-controls="mobileMenu" aria-expanded="false">Menu</button>
+      </div>
     </div>
-  </header>
-
+  </div>
+  <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 dark:border-slate-800">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-3" aria-label="Mobile">
+      <a href="#research" class="hover:underline">Research</a>
+      <a href="#people" class="hover:underline">People</a>
+      <a href="#publications" class="hover:underline">Publications</a>
+      <a href="#news" class="hover:underline">News</a>
+      <a href="#lab-life" class="hover:underline">Lab Life</a> {/* */}
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </div>
+</header>
 <section id="home" class="relative overflow-hidden">
   <div class="absolute inset-0 bg-gradient-to-br from-slate-50/50 via-transparent to-transparent dark:from-slate-900/40 dark:via-transparent"></div>
   
